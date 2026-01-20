@@ -1,0 +1,31 @@
+{
+    "de": [
+        {
+            "partOfSpeech": "Noun",
+            "language": "German",
+            "definitions": [
+                {
+                    "definition": "<a rel=\"mw:WikiLink\" href=\"/wiki/apple\" title=\"apple\">apple</a> <span class=\"mention-gloss-paren\" about=\"#mwt18\" typeof=\"mw:Transclusion\">(</span><span class=\"mention-gloss\" about=\"#mwt18\">fruit</span><span class=\"mention-gloss-paren\" about=\"#mwt18\">)</span>"
+                },
+                {
+                    "definition": "<a rel=\"mw:WikiLink\" href=\"/wiki/apple_tree\" title=\"apple tree\">apple tree</a>"
+                },
+                {
+                    "definition": "<span class=\"usage-label-sense\" about=\"#mwt19\" typeof=\"mw:Transclusion\"></span> <a rel=\"mw:WikiLink\" href=\"/wiki/breast\" title=\"breast\">breasts</a>"
+                },
+                {
+                    "definition": "<span class=\"usage-label-sense\" about=\"#mwt20\" typeof=\"mw:Transclusion\"></span> <span class=\"form-of-definition use-with-mention\" about=\"#mwt21\" typeof=\"mw:Transclusion\"><a rel=\"mw:WikiLink\" href=\"/wiki/Appendix:Glossary#abbreviation\" title=\"Appendix:Glossary\">abbreviation</a> of <span class=\"form-of-definition-link\"><i class=\"Latn mention\" lang=\"de\"><a rel=\"mw:WikiLink\" href=\"/wiki/Pferdeapfel#German\" title=\"Pferdeapfel\">Pferdeapfel</a></i> <span class=\"mention-gloss-paren annotation-paren\">(</span><span class=\"mention-gloss-double-quote\">“</span><span class=\"mention-gloss\"><a rel=\"mw:WikiLink\" href=\"/wiki/road_apple\" title=\"road apple\">road apple</a></span><span class=\"mention-gloss-double-quote\">”</span><span class=\"mention-gloss-paren annotation-paren\">)</span></span></span><link rel=\"mw:PageProp/Category\" href=\"./Category:German_abbreviations#APFEL\" about=\"#mwt21\">"
+                }
+            ]
+        },
+        {
+            "partOfSpeech": "Proper noun",
+            "language": "German",
+            "definitions": [
+                {
+                    "definition": "<span class=\"use-with-mention\" about=\"#mwt31\" typeof=\"mw:Transclusion\">a <a rel=\"mw:WikiLink\" href=\"/wiki/surname\" title=\"surname\">surname</a></span><link rel=\"mw:PageProp/Category\" href=\"./Category:German_surnames#APFEL\" about=\"#mwt31\">"
+                }
+            ]
+        }
+    ]
+}
