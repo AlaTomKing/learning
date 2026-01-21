@@ -1,3 +1,6 @@
 [
-    {"word": "Apfel", "gender": 0}
+    {"word": "Apfel", "gender": "m", "en": "Apple", "plural": "Äpfel"},
+    {"word": "Banane", "gender": "f", "en": "Banana", "plural": "Bananen"},
+    {"word": "Restaurant", "gender": "n", "en": "Restaurant", "plural": "Restaurants"},
+
 ]

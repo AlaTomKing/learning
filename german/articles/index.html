@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning german articles</title>
+    <style>
+        body {
+            background-color: rgb(15, 20, 45);
+            color: rgb(232, 232, 232);
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>learning german articles</h1>
+    <div id="test">kokokoko</div>
+    <button id="mas">Der</button>
+    <button id="fem">Die</button>
+    <button id="neu">Das</button>
+    <script>
+        let words = [];
+
+        const test = document.getElementById("test");
+
+        const shuffle = (arr) => {
+            for (let i = 0; i < arr.length; i++) {
+                const num = Math.min(i + Math.floor(Math.random() * (arr.length - i)), arr.length - 1);
+                [arr[i], arr[num]] = [arr[num], arr[i]]
+            }
+        }
+
+        const start = () => {
+            test.innerHTML = words[0].word;
+        }
+
+        fetch("../nouns.json").then((response) => {
+            if (!response.ok) {
+                return
+            } else {
+                return response.json();
+            }
+        }).then((json) => {
+            words = json;
+            shuffle(words);
+            start();
+        })
+    </script>
+</body>
+
+</html>
